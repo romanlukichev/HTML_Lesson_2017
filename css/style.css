@@ -1,3 +1,43 @@
 body{
-    background: red;
+    font-family: Arial;
+    font-size: 20px;
+    color: lime;
+
+}
+
+
+h1{
+    color: #569cd8;
+    font-family: Arial, Verdana;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-style: italic;
+    text-align: center;
+}
+
+.a-list1{
+  list-style: circle;
+}
+
+.a-list2{
+    list-style: lower-roman;
+}
+
+#heading1{
+    color: darkcyan;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.black-text{
+    color: #000;
+    text-transform: uppercase ;
+}
+
+.red-text{
+    color: orangered;
+    text-transform: capitalize ;
+    text-align: center;
+    line-height: 2 ;
+    letter-spacing: 6px ;
 }
