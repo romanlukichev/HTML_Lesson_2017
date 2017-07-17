@@ -2,42 +2,13 @@ body{
     font-family: Arial;
     font-size: 20px;
     color: lime;
-
+    /*background: #444; */
+    background: #ccc url("../img/debut_light.png") /*repeat-x*/ no-repeat center top 100px  /*repeat*/ ;
 }
 
 
-h1{
-    color: #569cd8;
-    font-family: Arial, Verdana;
-    text-transform: uppercase;
-    text-decoration: underline;
-    font-style: italic;
-    text-align: center;
-}
-
-.a-list1{
-  list-style: circle;
-}
-
-.a-list2{
-    list-style: lower-roman;
-}
-
-#heading1{
-    color: darkcyan;
-    font-size: 22px;
-    font-weight: bold;
-}
-
-.black-text{
-    color: #000;
-    text-transform: uppercase ;
-}
-
-.red-text{
-    color: orangered;
-    text-transform: capitalize ;
-    text-align: center;
-    line-height: 2 ;
-    letter-spacing: 6px ;
+img{
+    border-bottom: 5px dotted #88ff6a;
+    border-left:  15px dotted #88ff6a;
+    border-right:  15px dotted #88ff6a;
 }
