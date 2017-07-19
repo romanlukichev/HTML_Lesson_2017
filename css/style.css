@@ -1,14 +1,33 @@
 body{
-    font-family: Arial;
-    font-size: 20px;
-    color: lime;
-    /*background: #444; */
-    background: #ccc url("../img/debut_light.png") /*repeat-x*/ no-repeat center top 100px  /*repeat*/ ;
+    font: 20px bold;
+    font-family: "Arial Narrow"  ;
+    font-size: 30px;
+    color: indigo;
+    background: bisque;
 }
 
 
 img{
-    border-bottom: 5px dotted #88ff6a;
-    border-left:  15px dotted #88ff6a;
-    border-right:  15px dotted #88ff6a;
+  border: 30px solid darkmagenta;
 }
+
+.first-image{
+
+}
+
+.second-image{
+
+}
+
+h1{
+  color: blue;
+  font-family: "Arial Narrow";
+  text-align: justify;
+}
+
+h2{
+  color: dodgerblue;
+  font-family: "Arial Narrow";
+  text-align: justify;
+}
+
