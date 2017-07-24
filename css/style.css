@@ -4,6 +4,7 @@ body{
     font-size: 30px;
     color: indigo;
     background: bisque;
+    margin: 0;
 }
 
 
@@ -11,11 +12,33 @@ img{
   border: 30px solid darkmagenta;
 }
 
-.first-image{
+.user-table{
+   width: 400px;
+    height: 200px;
+    background: #fff;
+    color: springgreen;
+    margin: 20px auto;
+}
+
+.user-table th{
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    background: #ee4e53;
+
 
 }
 
-.second-image{
+.user-table tfoot{
+    background: goldenrod;
+}
+
+.user-table td{
+    border-right: 2px solid #000;
+    border-bottom: 2px dotted mediumvioletred;
+
+    vertical-align: bottom;
+    width: 100px;
+    padding-left:  4px;
 
 }
 
