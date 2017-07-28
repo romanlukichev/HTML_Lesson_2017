@@ -13,34 +13,29 @@ img{
 }
 
 .user-table{
-   width: 400px;
-    height: 200px;
-    background: #fff;
-    color: springgreen;
-    margin: 20px auto;
+    width: 936px;
+    border: 1px solid black;
+    background: #FFFFFF;
+    color: #000000;
+
 }
 
 .user-table th{
-    border-top: 2px solid #000;
-    border-bottom: 2px solid #000;
-    background: #ee4e53;
-
+  border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+    background: #FFFFFF;
 
 }
 
 .user-table tfoot{
-    background: goldenrod;
+
 }
 
 .user-table td{
-    border-right: 2px solid #000;
-    border-bottom: 2px dotted mediumvioletred;
 
-    vertical-align: bottom;
-    width: 100px;
-    padding-left:  4px;
 
 }
+
 
 h1{
   color: blue;
