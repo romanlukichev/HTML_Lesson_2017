@@ -6,49 +6,42 @@
         <title>myHTML</title>
     </head>
     <body>
-        <table class="user-table">
-            <caption>
-             Users
-            </caption>
-            <thead>
-                <tr>
-                    <td>No</td>
-                    <td>Name</td>
-                    <td>Surname</td>
-                    <td>DOB</td>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>Dmitry</td>
-                    <td>Vallak</td>
-                    <td>07.31.1991</td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>...</td>
-                    <td>...</td>
-                    <td>...</td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>...</td>
-                    <td>...</td>
-                    <td>...</td>
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td>...</td>
-                    <td>...</td>
-                    <td>...</td>
-                </tr>
-            </tbody>
-            <tfoot>
+        <form method="" action="" class="my-form">
 
-            </tfoot>
+            <fieldset id="fset1">
+                     <label for="user-name">username:</label>
+                    <input type="text" value="login" id="user-name"><br>
+                    <label for="psw">username:</label>
+                    <input type="password" value="" id="psw"><br>
 
+                    <label for="about" >about you:</label><br>
+                    <textarea  id="about"></textarea><br>
+            </fieldset>
 
-        </table>
+            <fieldset>
+                    <input type="checkbox" id="rules1"><label for="rules1">I agree with terms</label><br>
+                    <input type="checkbox" id="rules2"><label for="rules2">I have not read</label><br>
+
+                    <input type="button" value="aButton" class="blue-button" >
+                    <input type="submit" value="Submit"  class="blue-button" ><br>
+            </fieldset>
+
+            <fieldset>
+                    <br>Your gender<br>
+                    <input type="radio" name="M">Male<br>
+                    <input type="radio" name="M">Female<br>
+                </fieldset>
+
+            <fieldset>
+                    <br>Your Country<br>
+                    <select name="country" id="country-id">
+                        <option value="1">Lithuania</option>
+                        <option value="2">Russia</option>
+                        <option value="3">Belarus</option>
+                    </select>
+                    <button class="btn">A-button2</button>
+                </fieldset>
+
+        </form>
     </body>
 </html>
