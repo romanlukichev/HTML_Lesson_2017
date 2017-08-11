@@ -5,43 +5,75 @@
         <meta charset="UTF-8">
         <title>myHTML</title>
     </head>
-    <body>
-        <form method="" action="" class="my-form">
+     <body>
 
-            <fieldset id="fset1">
-                     <label for="user-name">username:</label>
-                    <input type="text" value="login" id="user-name"><br>
-                    <label for="psw">username:</label>
-                    <input type="password" value="" id="psw"><br>
+         <form class="form1" >
+           <fieldset id="fieldset1">
+               <label ><p id="top-text">A Web Page</p></label> <br>
+               <button class="btn-back"></button>
+               <button class="btn-forward"></button>
+               <button class="btn-stop"></button>
+               <button class="btn-home"></button>
+               <input type="text" value="https://" class="address-input">
+               <input type="text" name="search" value="" class="search-input" >
+           </fieldset>
 
-                    <label for="about" >about you:</label><br>
-                    <textarea  id="about"></textarea><br>
-            </fieldset>
 
-            <fieldset>
-                    <input type="checkbox" id="rules1"><label for="rules1">I agree with terms</label><br>
-                    <input type="checkbox" id="rules2"><label for="rules2">I have not read</label><br>
 
-                    <input type="button" value="aButton" class="blue-button" >
-                    <input type="submit" value="Submit"  class="blue-button" ><br>
-            </fieldset>
+           <fieldset id="fieldset2">
 
-            <fieldset>
-                    <br>Your gender<br>
-                    <input type="radio" name="M">Male<br>
-                    <input type="radio" name="M">Female<br>
-                </fieldset>
+                <label for="your-name" class="labels1">Your Name:</label><br>
+                <input type="text" value="" id="your-name" class="inputs"><br>
 
-            <fieldset>
-                    <br>Your Country<br>
-                    <select name="country" id="country-id">
-                        <option value="1">Lithuania</option>
-                        <option value="2">Russia</option>
-                        <option value="3">Belarus</option>
-                    </select>
-                    <button class="btn">A-button2</button>
-                </fieldset>
+               <label for="your-surname" class="labels1">Your Surname:</label><br>
+               <input type="text" value="" id="your-surname" class="inputs"><br>
 
-        </form>
+               <label for="your-password" class="labels1">Password:</label><br>
+               <input type="text" value="" id="your-password" class="inputs"><br>
+
+               <label for="about-you" class="labels1">About you</label><br>
+               <textarea id="about-you" class="inputs"></textarea><br>
+
+               <input type="radio" id="male-checkbox" name="gender" class="radio-and-checkboxes">
+               <label for="male-checkbox" class="labels2">Male</label><br>
+               <input type="radio" id="female-checkbox" name="gender" class="radio-and-checkboxes">
+               <label for="female-checkbox" class="labels2">Female</label><br>
+
+
+               <br>
+               <br>
+               <label for="choose-file" class="labels1">Choose image file</label><br>
+               <input type="file" id="choose-file" name="img2"  class="choose-image">
+               <br>
+               <br>
+               <br>
+               <label for="secret-question" class="labels1">Secret Question</label><br>
+               <select name="Secret Question" id="secret-question"  class="inputs">
+                   <option value="1">Name of your pet?</option>
+                   <option value="2">Your first car?</option>
+                   <option value="3">Your favorite color?</option>
+                   <option value="4">Where do uoy want to travel?</option>
+                   <option value="5">What is your favorite food?</option>
+               </select><br>
+
+               <input type="checkbox" id="agree-with-roles-checkbox"  class="radio-and-checkboxes">
+               <label for="agree-with-roles-checkbox" class="labels2">I agree with rules</label><br>
+
+               <input type="button" value="Save"  class="save-button"><br>
+               <br>
+               <br>
+
+           </fieldset>
+
+
+
+
+
+           <fieldset id="fieldset3">
+
+                       <img src="../img/bottom-logo.jpg" alt="bottom-logo" align="right">
+           </fieldset>
+          </form>
+
     </body>
 </html>
