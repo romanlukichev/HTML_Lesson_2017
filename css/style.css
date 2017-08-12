@@ -7,147 +7,95 @@ body{
     margin: 0;
 }
 
-.form1 {
 
-    width: 90% ;
-    margin: auto;
-    border-collapse: collapse;
-    border: 2px solid black;
-
-
-}
-
-#top-text{
-    text-align: center;
-    color: black;
+.link1{
+    color: mediumvioletred;
+    text-decoration: none;
+    background: #987;
     font-family: Verdana;
-    font-size: 50px;
-    font-weight: bold;
-    padding: 0;
-    margin: 0;
+    font-size: 170px;
+    padding: 30px;
+    display: inline-block; /* to make elements block instead of line  */
+    /* display:  block   - we use too in css  */
+    /* display:  none   - we use too in css  */
+    /* visibility: hidden  - element still exists on a page but  not shown   */
 }
 
-.address-input {
-    height: 80px;
-    width: 60%;
-    font-size: 50px ;
-    font-weight: bold;
+
+.my-div1{
+    display: inline ; /* to make elements line instead o block  */
+
+    width: 700px;
+    height: 400px;  /* for block elements only  */
     font-family: Verdana;
-    margin-top: 5px;
-    margin-right: 10px;
-    margin-left: 20px;
+    font-size: 170px;
+    padding: 30px;
+
 }
 
-.search-input{
-    height: 80px;
-    width: 15%;
-    font-size: 50px ;
-    font-weight: bold;
+.hidden{
+    visibility: hidden;
+    display: none;
+    /* display: none;  */
+}
+
+
+.simple-table1{
+
     font-family: Verdana;
-    margin-top: 5px;
-    background-image: url("../img/search-ing.gif");
-    background-repeat: no-repeat;
+    font-size: 170px;
+    padding: 30px;
+    background: #444;
+    color: #ffffff;
+    border: 20px solid darkgreen;
+    margin: 50px;
 
 }
 
-.btn-back{
-     margin: auto;
-     width: 100px;
-     height: 100px;
-    background: url("../img/back.gif");
- }
+.div-table{
 
-.btn-forward{
-    margin: auto;
-    width: 100px;
-    height: 100px;
-    background: url("../img/forward.gif");
+    font-family: Verdana;
+    font-size: 170px;
+    padding: 30px;
+}
+
+.simple-table1 td {
+    border-right: 7px dashed gold;
+    padding: 60px;
+}
+
+.simple-table1 tr {
+    border-right: 7px dashed gold;
+    padding: 60px;
+}
+
+.div-table{
+
+    font-family: Verdana;
+    font-size: 170px;
+    padding: 30px;
+    background: #444;
+    color: #ffffff;
+    border: 20px solid darkgreen;
+    margin: 50px;
+    display: table;
+
 }
 
 
-.btn-stop {
-    margin: auto;
-    width: 100px;
-    height: 100px;
-    background: url("../img/stop.gif");
-}
-.btn-home{
-    margin: auto;
-    width: 100px;
-    height: 100px;
-    background: url("../img/home.gif");
+.div-td {
+    border-right: 7px dashed gold;
+    /*padding: 60px;*/
+    display: table-cell;
+    vertical-align: bottom;
+    height: 600px; /*in block elements*/
 }
 
-#fieldset1{
-    margin: 0;
-     background: #C1C1C1;
-    border: 2px solid black;
+.div-tr {
+    border-right: 7px dashed gold;
+    padding: 60px;
+    display: table-row;
+
 
 }
 
-#fieldset2 {
-    margin: 0;
-    background: #FFFFFF;
-    border: 2px solid black;
-    padding-top: 80px;
-}
-
-#fieldset3 {
-    margin: 0;
-    background: #C1C1C1;
-    border: 2px solid black;
-}
-
-.form1 textarea{
-    width: 500px;
-    height: 300px;
-    font-size: 40px;
-}
-
-.inputs{
-    width: 500px;
-    height: 50px;
-    font-size: 40px;
-    margin-top: 5px;
-    margin-bottom: 50px;
-    margin-left: 200px;
-    margin-right: auto;
-}
-.labels1{
-    font-size: 40px;
-    margin-top: 20px;
-    margin-bottom: 5px;
-    margin-left: 200px;
-    margin-right: auto;
-}
-
-.radio-and-checkboxes{
-    width: 50px;
-    height: 50px;
-    font-size: 40px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 200px;
-
-}
-
-.save-button{
-    background: #B6D7A8;
-    width: 500px;
-    height: 50px;
-    font-size: 40px;
-    margin-left: 200px;
-}
-
-.labels2{
-    font-size: 40px;
-}
-
-
-.choose-image{
-    width: 500px;
-    height: 50px;
-    font-size: 40px;
-    margin-left: 200px;
-    background: antiquewhite;
-}
