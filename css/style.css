@@ -5,50 +5,63 @@ body{
     color: indigo;
     background: bisque;
     margin: 0;
+    height: 8000px;
 }
 
-a {     /* 1 - default*/
-    color: blueviolet;
-    text-decoration: none;
+.dark-element{
+    width: 100px;
+    height: 100px;
+    background: #434343;
+    position: absolute; /*will be in the front and over the text */
+   /* position is important often asked on interviews*/
+    top: 400px;
+    right: 90px;
 }
 
-a:visited{  /* 2 visited*/
-    color: aqua;
-    text-decoration: underline;
+.green-element{
+    width: 100px;
+    height: 100px;
+    background: #4dbf15;
+    position: fixed;  /*used for menu attached to top of browser window
+    top: 200px;*/
+    right: 600px;
 }
 
-a:hover{  /* 3 hover*/
-    color: aqua;
-    text-decoration: underline;
+.out-container{
+    width: 600px;
+    height: 400px;
+    background: #e44835 ;
+    top: 48px;
+    left: 160px;
+    position: relative;  /*container comes to the front relative to other containers*/
+    /*try to remove 'position: relative' and see what changes in the page*/
 }
 
-
-a:active{  /*4 - active */ /*whileyou press this link*/
-    color: black;
-    text-decoration: none;
+.inside-container1{
+    width: 100px;
+    height: 100px;
+    background: #2b31e4;
+    position: absolute;
+    top: 10px;
+    left: 10px;
 }
 
-
-.test:hover{          /*hover*/
-     background: red;
- }
-
-.test:active{          /*hover*/
-    background: darkgreen;
+.inside-container2{
+    width: 50px;
+    height: 50px;
+    background: chartreuse;
+    position: absolute;
+    top: -10px;
+    right: -10px;   /*position-relative in parent container is important for using this feature*/
+    z-index: 1;  /*for pop-ups z-index are made = 1000*/
 }
 
-.test-for-span:active{          /*hover*/
-    background: #761d78;
+.inside-container3{
+    width: 50px;
+    height: 50px;
+    background: aqua;
+    position: absolute;  /*position static is default*/
+    top: -5px;
+    right: -5px;   /*position-relative in parent container is important for using this feature*/
+    z-index: 2;
 }
-
-input:focus{
-    border: 2px solid red;
-    outline: 0;
-}
-
-input:checked{
-    margin-left: 50px;
-    /*display: none;*/
-}
-
-
