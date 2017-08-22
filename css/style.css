@@ -28,12 +28,12 @@ body{
     width: 300px;
     height: 710px;
     background: #ff9a18;
-    float: left;
+    float: right;
 }
 
 .content{
     width: 600px;
     height: 710px;
     background: #dbfff6;
-    float: left;
+    float: right;
 }
