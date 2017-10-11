@@ -1,26 +1,29 @@
-.social-box{
-    width: 450px; /*500*/
-    height: 170px; /*200*/
-    background: #ffffff;
-    border: 15px solid  #3ab792;
-    text-align: center;
+body{
+    font: 14px Verdana, Arial , sans-serif;
+    color: #000;
+    background: #fff;
+    margin: 0;
 }
 
-.login-text{
-    font-family: Arial ,  sans-serif;
-    font-size: 24px;
-    text-align: center;
-    color: #475055;
+.main-table{
+    width: 500px;
+    margin: 20px auto;
+    border: 2px  solid rgba(0, 39, 159, 0.73);
+    border-collapse: collapse;
 }
 
-.login-choose-public-media{
-    font-family: Arial ,  sans-serif;
-    font-size: 15px;
+.main-table td{
+    border-right: 2px solid rgba(0, 39, 159, 0.73);
+    border-bottom: 2px solid rgba(0, 39, 159, 0.73);
     text-align: center;
-    color: #475055;
+    padding: 5px;
 }
 
-.public-media-button{
-    display: inline-block;
-    margin: 0 20px;
+.main-table tr:nth-child(2n)
+{
+    background: #a5363a;
+}
+
+.main-table tr:first-child{
+    background: #e4d14f;
 }
